@@ -1,31 +1,63 @@
-# Android specific
-build/
-.gradle/
-*.iml
+# Android Studio
 .idea/
-local.properties
+*.iml
+.gradle/
+build/
+captures/
 
-# Kotlin/Java
-*.class
-*.log
-
-# Dependency directories
-/node_modules
-/app/build
-/captures
-
-# Sensitive files
-.env
-*.keystore
-
-# Logging and system files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Test coverage
-coverage/
-.coverage
+# Compiled class files
+*.class
 
-# Temporary files
-*.tmp
-*.bak
+# Log files
+*.log
+
+# Package Files 
+*.war
+*.aar
+*.jar
+*.apk
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Local configuration file
+local.properties
+
+# Android specifics
+app/build/
+.navigation/
+.externalNativeBuild
+.cxx/
+
+# Kotlin
+*.kotlin_module
+
+# Dependency directories
+/node_modules
+/jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Virtual environments
+venv/
+env/
