@@ -1,0 +1,28 @@
+# Android Studio
+*.iml
+.gradle/
+build/
+.idea/
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+captures/
+.externalNativeBuild/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local configuration
+local.properties
+
+# Dependency directories
+node_modules/
