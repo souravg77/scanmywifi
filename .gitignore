@@ -1,41 +1,49 @@
 # Android Studio
+.idea/
 *.iml
 .gradle/
 build/
-local.properties
-.idea/
+captures/
 
-# Gradle files
-*.gradle
+# Gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
+/.gradle
+/build
+/captures
 
-# Compiled source
+# Android
+bin/
+gen/
+out/
+release/
+
+# Kotlin
 *.class
-*.dex
-*.apk
-
-# Logs
-*.log
-
-# Virtual machine crash logs
-hs_err_pid*
-
-# macOS
-.DS_Store
-
-# Android build outputs
-/app/build/
-/captures/
+*.kotlin_module
 
 # Dependency directories
-/node_modules/
-/app/vendor/
+/node_modules
+/jspm_packages
 
-# Kotlin build cache
-.kotlin/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Sensitive information
-*.env
-*.key
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
