@@ -2,32 +2,33 @@
 *.iml
 .gradle/
 build/
-local.properties
 .idea/
+local.properties
 
-# Gradle
-bin/
-gen/
-out/
+# macOS
+.DS_Store
 
 # Kotlin/Java
 *.class
 *.log
+*.jar
 
-# Dependency directories
-node_modules/
-
-# Build output
-target/
-dist/
+# Gradle
+captures/
+.externalNativeBuild/
+.cxx/
 
 # Logs
 logs/
 *.log
 
-# Environment files
+# Virtual environment
+venv/
 .env
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Testing
+coverage/
