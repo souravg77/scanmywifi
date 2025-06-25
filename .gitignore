@@ -1,35 +1,41 @@
 # Android Studio
-.idea/
 *.iml
 .gradle/
 build/
-
-# Gradle
-/local.properties
-/.gradle
-/captures
-.externalNativeBuild
-.cxx
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Sensitive or local configuration
 local.properties
-*.jks
-*.keystore
+.idea/
 
-# Dependency directories
-/node_modules
-/android/app/build
-/android/build
+# Gradle files
+*.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+
+# Compiled source
+*.class
+*.dex
+*.apk
 
 # Logs
 *.log
 
-# Compiled class files
-*.class
+# Virtual machine crash logs
+hs_err_pid*
 
-# Kotlin build files
-out/
+# macOS
+.DS_Store
+
+# Android build outputs
+/app/build/
+/captures/
+
+# Dependency directories
+/node_modules/
+/app/vendor/
+
+# Kotlin build cache
+.kotlin/
+
+# Sensitive information
+*.env
+*.key
