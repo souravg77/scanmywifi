@@ -2,40 +2,33 @@
 *.iml
 .gradle/
 build/
-local.properties
 .idea/
+captures/
 
-# Kotlin/Java
-*.class
-*.log
-*.jar
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Gradle
-.gradle
-build/
+# Kotlin/Android specific
+bin/
+gen/
+out/
+app/build/
 
 # Dependency directories
 node_modules/
 
-# Compiled files
-bin/
-out/
-target/
-
-# Log files
+# Logs
 *.log
+
+# Local configuration file
+local.properties
 
 # Virtual machine crash logs
 hs_err_pid*
 
-# Android specific
-captures/
-.externalNativeBuild/
-.cxx/
+# Kotlin build
+*.kotlin_module
 
-# Environment files
-.env
-
-# Testing
-*.test.js
-*.test.ts
+# Sensitive information
+*.env
