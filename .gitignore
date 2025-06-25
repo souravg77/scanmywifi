@@ -1,46 +1,36 @@
 # Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-
-# Kotlin and Java
-*.class
-*.log
-*.tmp
-*.bak
-*.swp
-
-# Dependency directories
-/node_modules/
-/android/app/build/
-/android/build/
-
-# Gradle
 .gradle/
 build/
-
-# Local configuration file
 local.properties
+.idea/
 
-# Logs
-logs
+# Kotlin/Java
+*.class
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+*.jar
+*.war
 
-# Environment variables
+# Dependency directories
+node_modules/
+app/build/
+
+# Logging
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+*.keystore
 
-# Test coverage
-/coverage
+# Test related
+coverage/
+test-results/
+
+# Misc
+*.bak
+*.swp
