@@ -1,31 +1,44 @@
-# Android specific
+# Android Studio
 *.iml
-.gradle/
-build/
-captures/
-local.properties
+.gradle
+/local.properties
+/.idea/
 .DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
 
-# Kotlin/Java
+# Kotlin/Java compiled files
 *.class
-*.jar
-*.log
+*.dex
+*.apk
 
-# IDE
-.idea/
-.vscode/
+# Build directories
+bin/
+out/
+target/
+build/
 
 # Dependency directories
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+.npm/
 
-# Testing
-coverage/
-reports/
+# Logs
+*.log
 
-# Misc
+# Environment files
 .env
-*.swp
-*.swo
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
