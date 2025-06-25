@@ -1,0 +1,36 @@
+# Android Studio
+*.iml
+.gradle/
+build/
+.idea/
+local.properties
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# macOS
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# Generated files
+bin/
+gen/
+out/
+
+# Environment files
+.env
+
+# Kotlin build output
+target/
+
+# Temporary files
+*.tmp
+*.bak
