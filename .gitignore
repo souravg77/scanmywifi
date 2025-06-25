@@ -2,37 +2,49 @@
 *.iml
 .gradle/
 build/
-local.properties
 .idea/
+local.properties
 
 # Kotlin/Java
 *.class
-*.jar
-*.war
-*.ear
-*.logs
-
-# Android build
-bin/
-gen/
-out/
-release/
+*.log
 
 # Dependency directories
-node_modules/
-jspm_packages/
+/node_modules
+/captures
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Temporary files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Security and environment
-.env
+# Gradle
+.gradle
+/build
+/captures
+
+# Android build
+/app/build
+/app/release
+
+# Logs
+*.log
+
+# Local configuration file
+local.properties
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+/captures
+
+# Keystore files
+*.jks
 *.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+.cxx/
