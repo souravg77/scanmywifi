@@ -1,46 +1,54 @@
-# Android Studio
-.idea/
+# Android specific
 *.iml
 .gradle/
 build/
 captures/
+.externalNativeBuild/
+.cxx/
 
-# Android specific
-bin/
-gen/
-out/
+# Intellij
+.idea/
+*.ipr
+*.iws
 
-# Gradle files
-gradle/
-gradlew
-gradlew.bat
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Kotlin/Android
+*.class
+*.log
+
+# Dependency directories
+node_modules/
+app/build/
 
 # Local configuration file
 local.properties
 
-# Log files
+# Proguard
+proguard/
+
+# Log Files
 *.log
 
-# Virtual machine crash logs
-hs_err_pid*
+# Android Studio
+.navigation/
+app/.externalNativeBuild
+app/release/
 
-# Dependency directories
-node_modules/
-
-# Kotlin/Android specific
-*.class
-*.apk
-*.aar
-*.dex
-
-# Sensitive or local files
-.env
+# Keystore files
+*.jks
 *.keystore
 
-# Testing
-.coverage
-test-results/
+# Google Services (e.g. APIs or Firebase)
+google-services.json
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Temporary files
+tmp/
+temp/
+
+# Environment files
+.env
