@@ -1,43 +1,34 @@
 # Android Studio
 .idea/
 *.iml
-*.iws
-*.ipr
-
-# Gradle
 .gradle/
 build/
 captures/
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Kotlin
+# Kotlin/Android specific
 *.class
 *.log
-
-# Build directories
-/bin/
-/out/
+*.apk
+*.aar
+*.dex
+*.module
+bin/
+gen/
+out/
 
 # Dependency directories
-/node_modules/
+node_modules/
+app/build/
+
+# Logging
+*.log
+
+# Environment files
+.env
 
 # Local configuration file
 local.properties
-
-# Signing files
-*.jks
-*.keystore
-
-# Logs
-*.log
-
-# Android specific
-/android/build/
-/android/captures/
-/android/local.properties
-
-# Misc
-.env
