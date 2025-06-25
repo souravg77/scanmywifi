@@ -1,65 +1,36 @@
 # Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
 
 # Kotlin/Java
 *.class
 *.log
-*.tmp
-*.bak
-*.swp
-
-# Dependency directories
-/node_modules/
-/app/build/
-/app/src/main/gen/
-
-# Gradle
-.gradle/
-build/
-
-# Local configuration file
-local.properties
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Compiled binary addons
-build/Release
 
 # Dependency directories
 node_modules/
+.idea/
+out/
 
-# Optional npm cache directory
-.npm
+# Gradle files
+gradle/
+gradlew
+gradlew.bat
 
-# Optional eslint cache
-.eslintcache
+# Build output
+bin/
+target/
+dist/
 
-# Optional REPL history
-.node_repl_history
+# Logs
+*.log
 
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# dotenv environment variables file
+# Environment files
 .env
-.env.test
 
-# Temporary files
-tmp/
-temp/
+# OS generated files
+.DS_Store
+Thumbs.db
