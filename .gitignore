@@ -1,18 +1,14 @@
 # Android Studio
-.idea/
 *.iml
 .gradle/
 build/
 captures/
+.externalNativeBuild/
+.cxx/
 
-# Kotlin
+# Kotlin/Java compiled files
 *.class
-*.kotlin_module
-
-# Gradle
-gradle/
-gradlew
-gradlew.bat
+*.dex
 
 # Local configuration file
 local.properties
@@ -20,26 +16,22 @@ local.properties
 # Log files
 *.log
 
-# Android generated files
-bin/
-gen/
-out/
-
-# Dependency directories
-node_modules/
-
 # Virtual machine crash logs
 hs_err_pid*
 
 # macOS
 .DS_Store
 
-# Keystore files
-*.jks
-*.keystore
+# VSCode
+.vscode/
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# IntelliJ IDEA
+.idea/
 
-# Android Profiling
-*.hprof
+# Gradle
+*.gradle
+gradlew
+gradlew.bat
+
+# Dependency directories
+node_modules/
