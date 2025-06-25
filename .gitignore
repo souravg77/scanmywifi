@@ -1,33 +1,48 @@
 # Android Studio
+.idea/
 *.iml
 .gradle/
 build/
-local.properties
-.idea/
+captures/
 
-# Kotlin and Java
+# Kotlin/Android specific
 *.class
 *.log
-*.kt.sb
+*.apk
+*.aar
+*.dex
 
-# Gradle
-.gradle
-/build
+# Local configuration file
+local.properties
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Proguard
+proguard/
 
-# Dependency directories
-/node_modules
-/captures
-
-# Logs
+# Log Files
 *.log
 
-# Testing
-/reports
-/test-results
+# Android Studio Navigation editor temp files
+.navigation/
 
-# Sensitive data
-.env
+# Android Studio captures folder
+/captures
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+.cxx/
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Dependency directories
+node_modules/
+
+# macOS
+.DS_Store
+
+# Gradle
+*.iws
+out/
+
+# Virtual Machine crash logs
+hs_err_pid*
