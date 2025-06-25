@@ -1,37 +1,44 @@
-# Android specific
-/build
-/captures
+# Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea
-.DS_Store
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
 
-# Kotlin and Android Studio
+# Kotlin/Java
 *.class
 *.log
-*.ktm
-*.kotlin_module
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
 
 # Dependency directories
-/node_modules
-/app/build
-/app/src/main/res/drawable
+node_modules/
+jspm_packages/
 
-# Logging and crash reports
-*.hprof
-/captures
+# Virtual environment
+venv/
+.env/
+__pycache__/
 
-# Testing
-/app/src/test/resources
-/app/src/androidTest/resources
+# Logs
+logs/
+*.log
 
-# Environment and sensitive files
-.env
-*.jks
-signing.properties
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Miscellaneous
-.externalNativeBuild
-.cxx
-local.properties
+# Build output
+dist/
+out/
+
+# Test coverage
+coverage/
+.nyc_output/
