@@ -2,37 +2,23 @@
 *.iml
 .gradle/
 build/
-captures/
-.externalNativeBuild/
+local.properties
+.idea/
 
 # Kotlin/Java compiled files
 *.class
 *.dex
 
-# Intellij
-.idea/
-*.ipr
-*.iws
-
-# Gradle
-gradle/
-.gradle
-/local.properties
-/build
-/captures
-
-# macOS
-.DS_Store
-
-# Logs
-*.log
-
 # Dependency directories
 /node_modules
-/jspm_packages
+/app/build
 
-# Environment files
-.env
+# Logging files
+*.log
 
-# Testing
-/coverage
+# System files
+.DS_Store
+Thumbs.db
+
+# Sensitive information
+*.env
