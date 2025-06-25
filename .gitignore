@@ -1,43 +1,43 @@
 # Android Studio
 .idea/
 *.iml
+*.iws
+*.ipr
+
+# Gradle
 .gradle/
 build/
 captures/
 
-# Android
-bin/
-gen/
-out/
-
-# Gradle
-local.properties
-.gradle
-gradle-app.setting
-.gradletasknamecache
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # Kotlin
 *.class
 *.log
 
+# Build directories
+/bin/
+/out/
+
 # Dependency directories
-/node_modules
-/jspm_packages
+/node_modules/
+
+# Local configuration file
+local.properties
+
+# Signing files
+*.jks
+*.keystore
 
 # Logs
-logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# Environment files
+# Android specific
+/android/build/
+/android/captures/
+/android/local.properties
+
+# Misc
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# OS generated files
-.DS_Store
-Thumbs.db
