@@ -2,36 +2,23 @@
 *.iml
 .gradle/
 build/
-.idea/
 local.properties
+.idea/
 
 # Kotlin/Java
 *.class
-*.log
+*.jar
+bin/
 out/
 
 # Dependency directories
 node_modules/
 
-# Logs
-logs/
-*.log
+# Testing
+coverage/
+test-results/
 
-# Environment files
-.env
-
-# Build outputs
-bin/
-target/
-dist/
-
-# Gradle specific
-.gradle
-gradle/
-
-# Virtual machine crash logs
-hs_err_pid*
-
-# OS generated files
+# Misc
 .DS_Store
-Thumbs.db
+.env
+*.log
