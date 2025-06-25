@@ -5,41 +5,26 @@ build/
 local.properties
 .idea/
 
-# Kotlin/Java
-*.class
-*.log
-*.jar
+# Kotlin/Android specific
 bin/
+gen/
+out/
+app/build/
 
 # Dependency directories
 node_modules/
-jspm_packages/
+
+# Logs
+*.log
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment variables
-.env
-
-# Build output
-dist/
-out/
-target/
-
 # Gradle
 .gradle
 **/build/
-!src/**/build/
 
-# Android specifics
-captures/
-.externalNativeBuild/
-.cxx/
+# Kotlin compiled files
+*.class
+*.kotlin_module
