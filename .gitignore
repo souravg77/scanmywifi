@@ -9,28 +9,31 @@
 .externalNativeBuild
 .cxx
 
-# Kotlin/Java compiled files
+# Kotlin/Java
 *.class
+*.log
 *.dex
 *.apk
 
 # Dependency directories
 /node_modules/
 /app/build/
+/app/src/main/assets/
 
-# Log files
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Logs and databases
 *.log
+*.sqlite
 
-# Temporary files
-*.swp
-*~
-
-# Local configuration file
+# Environment and sensitive files
+.env
 local.properties
 
-# Testing
-/app/reports/
-/app/test-results/
-
-# Security and environment files
-*.env
+# Test reports and coverage
+/test-results/
+/coverage/
