@@ -1,24 +1,10 @@
-# Android Studio
-*.iml
-.gradle/
-build/
-captures/
-.idea/
-
-# Kotlin/Android specifics
-*.class
-*.log
-*.apk
-*.aab
-
-# Dependency directories
 node_modules/
-
-# Logging
-*.log
-
-# Environment files
+dist/
 .env
-
-# Misc
+__pycache__/
+*.log
 .DS_Store
+.idea/
+.vscode/
+build/
+*.iml
