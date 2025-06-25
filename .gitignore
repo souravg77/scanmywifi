@@ -3,35 +3,41 @@
 .gradle/
 build/
 captures/
-local.properties
-.idea/
-bin/
-gen/
+.externalNativeBuild/
+.cxx/
 
-# Kotlin specific
-*.class
-*.kotlin_module
+# Kotlin/Android Studio
+.idea/
+*.log
+local.properties
 
 # Dependency directories
 node_modules/
 vendor/
 
-# Environment and secret files
-.env
-*.keystore
+# Build output
+bin/
+out/
+target/
 
 # Logs
 *.log
 
-# IDE specific
-.vscode/
+# Environment files
+.env
+
+# macOS
+.DS_Store
+
+# Temporary files
 *.swp
-*.swo
+*~
 
-# Build output
-out/
-dist/
+# Gradle
+.gradle
+/build/
 
-# Testing
-coverage/
-.pytest_cache/
+# Android Studio
+*.apk
+*.aar
+*.dex
