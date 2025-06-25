@@ -9,31 +9,34 @@
 .externalNativeBuild
 .cxx
 
-# Gradle
-/app/build/
-/app/gradle/
-/.gradle/
+# Kotlin and Android specific
+*.class
+*.log
+*.apk
+*.aab
+bin/
+gen/
+out/
 
 # Dependency directories
-/node_modules/
+node_modules/
+jspm_packages/
 
-# Logs
-*.log
-
-# Virtual environments
+# Sensitive files
 .env
-venv/
-env/
+*.jks
+*.keystore
 
-# Compiled class files
-*.class
+# Gradle files
+.gradle/
+build/
 
-# Kotlin and Android specific
-*.dex
-*.apk
-*.ap_
-.kotlin/
+# Logging
+log/
+logs/
 
-# Test reports and coverage
-/test-results/
-/coverage/
+# Virtual machine crash logs
+hs_err_pid*
+
+# Performance logs
+*.hprof
