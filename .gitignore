@@ -1,39 +1,32 @@
-# Android Studio
+# Android specific
 *.iml
 .gradle/
 build/
-.idea/
+captures/
 local.properties
+.idea/
+bin/
+gen/
 
-# Kotlin and Java
+# Kotlin/Java specific
 *.class
 *.log
-*.jar
-*.aar
-*.dex
-
-# OS generated files
-.DS_Store
-Thumbs.db
 
 # Dependency directories
 node_modules/
+jspm_packages/
 
-# Compiled output
-bin/
-out/
-dist/
+# Testing
+.pytest_cache/
+__pycache__/
+*.pyc
+.coverage
+htmlcov/
 
-# Logging
-*.log
-
-# Environment files
+# Environment and sensitive files
 .env
+*.keystore
 
-# Kotlin Test and Build caches
-.kotlin-build/
-.kotlin-daemon/
-
-# Gradle
-.gradle
-gradle/
+# Miscellaneous
+.DS_Store
+Thumbs.db
