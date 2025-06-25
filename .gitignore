@@ -5,16 +5,42 @@
 build/
 captures/
 
-# Kotlin/Android specific
-*.class
+# Gradle files
+gradle/
+gradlew
+gradlew.bat
+
+# Local configuration file
+local.properties
+
+# Log files
 *.log
+
+# Android generated files
+bin/
+gen/
+out/
 
 # Dependency directories
 /node_modules
-/android/app/build
-/android/build
+/app/build
 
-# Misc
-.DS_Store
+# Sensitive or local files
 .env
-local.properties
+*.keystore
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# macOS system files
+.DS_Store
+
+# Kotlin/Android specific
+*.apk
+*.aar
+*.dex
+*.class
+
+# Temporary files
+*.swp
+*~
