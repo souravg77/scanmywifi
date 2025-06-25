@@ -2,26 +2,35 @@
 *.iml
 .gradle/
 build/
-local.properties
 .idea/
 
-# Kotlin
+# Kotlin/Java
 *.class
-*.kotlin_module
+*.jar
+*.war
+*.ear
 
-# Dependency directories
-/node_modules
-/app/build
+# Local configuration file
+local.properties
 
-# Logs
+# Log files
 *.log
 
-# System files
-.DS_Store
-Thumbs.db
+# Android generated files
+bin/
+gen/
+out/
 
-# Kotlin test output
-target/
+# Dependency directories
+/captures
+.externalNativeBuild
+.cxx
 
 # Misc
-.env
+.DS_Store
+/android/app/release
+/android/app/debug
+
+# Test reports
+test-results/
+coverage/
