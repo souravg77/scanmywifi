@@ -2,38 +2,33 @@
 *.iml
 .gradle/
 build/
-captures/
 local.properties
+.idea/
 
 # Kotlin/Android specific
 *.class
 *.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Build directories
-bin/
-out/
-target/
+*.dex
+*.apk
 
 # Dependency directories
-node_modules/
+/node_modules/
+/app/build/
 
-# IDE directories
-.idea/
-.vscode/
-
-# Logs
+# Logging
+logs/
 *.log
+
+# Environment files
+.env
+
+# macOS system files
+.DS_Store
 
 # Temporary files
 *.tmp
 *.bak
 
-# Compiled files
-*.apk
-*.aar
-*.dex
-*.class
+# Gradle
+.gradle
+/build/
