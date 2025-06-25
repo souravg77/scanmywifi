@@ -2,38 +2,24 @@
 *.iml
 .gradle/
 build/
-local.properties
 .idea/
+local.properties
 
-# Kotlin/Java
+# Kotlin/Java compiled files
 *.class
-*.jar
-*.log
-
-# Compiled files
-bin/
-out/
-target/
+*.dex
+*.apk
 
 # Dependency directories
 node_modules/
+app/build/
 
-# Logs
+# Logging files
 *.log
-
-# Environment files
-.env
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Gradle
-.gradle
-/build/
-
-# Android build
-/app/build/
-
-# Test results
-test-results/
+# Test coverage
+coverage/
