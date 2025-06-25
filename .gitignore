@@ -1,27 +1,24 @@
-# Android specific
-build/
+# Android
 .gradle/
+build/
 *.iml
 .idea/
 local.properties
 
-# Kotlin/Java specific
+# Kotlin
 *.class
 *.log
 
+# macOS
+.DS_Store
+
 # Dependency directories
 node_modules/
-app/build/
+jspm_packages/
 
-# Logging and crash reports
-*.hprof
-*.log
+# Test reports
+test-results/
+coverage/
 
-# Environment and sensitive files
+# Environment files
 .env
-*.jks
-*.keystore
-
-# OS generated files
-.DS_Store
-Thumbs.db
