@@ -1,16 +1,18 @@
 # Android Studio
 *.iml
-.gradle/
-build/
-.idea/
-
-# Gradle
-local.properties
 .gradle
-gradle.properties
-
-# macOS
+/local.properties
+/.idea/
 .DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Gradle files
+gradle/
+gradlew
+gradlew.bat
 
 # Compiled class files
 *.class
@@ -18,34 +20,21 @@ gradle.properties
 # Log files
 *.log
 
-# Android build output
-bin/
-gen/
-out/
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
 
 # Virtual machine crash logs
 hs_err_pid*
 
-# Android Studio navigation editor temp files
-.navigation/
+# Dependency directories
+node_modules/
 
-# Android Studio captures folder
-captures/
+# Local configuration file
+local.properties
 
-# IntelliJ
-*.ipr
-*.iws
-
-# Keystore files
-*.jks
-*.keystore
-
-# External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
-.cxx/
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Kotlin build outputs
+build/
+out/
