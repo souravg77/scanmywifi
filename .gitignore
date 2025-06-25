@@ -1,47 +1,34 @@
-# Android specific
+# Android Studio
 *.iml
-.gradle/
-build/
-local.properties
-.idea/
-captures/
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
 .externalNativeBuild
 .cxx
 
-# Kotlin/Java
-*.class
+# Gradle
 *.log
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+/app/build/
+/build/
+
+# Kotlin
+*.class
+*.kotlin_module
 
 # Dependency directories
-node_modules/
-jspm_packages/
+/node_modules/
+/app/libs/
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Sensitive files
+*.env
+*.keystore
 
-# Environment files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Virtual machine files
+.kotlin-build/
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Test reports
+/test-results/
+/reports/
