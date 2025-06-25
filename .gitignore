@@ -1,4 +1,4 @@
-# Android Studio
+# Android Studio files
 *.iml
 .gradle
 /local.properties
@@ -10,23 +10,28 @@
 .cxx
 
 # Gradle files
-*.gradle
-/buildScan/
+gradle/
+gradlew
+gradlew.bat
 
-# Android specifics
-bin/
-gen/
-out/
+# Compiled class files
+*.class
 
-# Dependency directories
-node_modules/
-
-# Logs
+# Log files
 *.log
 
-# Environment files
-.env
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
 
-# Test reports
-test-results/
-coverage/
+# Virtual machine crash logs
+hs_err_pid*
+
+# Dependency directories
+/node_modules
+/app/build/
+
+# Local configuration file
+local.properties
