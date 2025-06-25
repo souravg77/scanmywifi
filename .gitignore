@@ -1,32 +1,28 @@
-# Android Studio
+# Android
+/build
+/captures
 *.iml
 .gradle
 /local.properties
 /.idea/
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
 
-# Kotlin/Android specific
-bin/
-gen/
-out/
-app/build/
+# Kotlin/Android Studio
+*.class
+*.log
+*.swp
+*.bak
 
 # Dependency directories
-node_modules/
+/node_modules/
+/app/build/
+/app/src/main/res/raw/
 
-# Logging
-*.log
+# Testing
+/app/build/reports/
+/app/build/test-results/
 
-# Sensitive files
+# Misc
 .env
-*.jks
-*.keystore
-
-# Test related
-coverage/
-.pytest_cache/
-__pycache__/
+.vscode/
+*.hprof
