@@ -1,0 +1,41 @@
+# Android Studio
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+
+# Gradle files
+*.gradle
+gradle/
+
+# Java/Kotlin class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Logs
+*.log
+
+# Android specific
+captures/
+.externalNativeBuild
+.cxx
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
