@@ -1,0 +1,52 @@
+# Android Studio files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build files
+build/
+app/build/
+target/
+out/
+
+# Gradle files
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Kotlin compiled files
+*.class
+*.kotlin_module
+
+# Logging files
+*.log
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Local configuration file
+local.properties
+
+# macOS system files
+.DS_Store
+
+# Sensitive or local configuration
+.env
+*.keystore
+
+# Android specific
+captures/
+*.ap_
+*.aab
+
+# External libraries
+*.so
+
+# Test results
+test-results/
+
+# Dependency directories
+node_modules/
+vendor/
