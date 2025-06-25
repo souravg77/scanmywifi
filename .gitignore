@@ -1,39 +1,10 @@
-# Android Studio
-*.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-
-# Gradle
-/gradle/
-*.log
-
-# Kotlin/Java compiled files
-*.class
-*.dex
-*.apk
-
-# Dependency directories
-/node_modules/
-/app/build/
-/app/src/main/gen/
-
-# Local configuration file
-local.properties
-
-# Proguard
-/app/proguard-rules.pro
-
-# Testing
-/app/src/androidTest/
-/app/src/test/
-*.hprof
-
-# Misc
+node_modules/
+dist/
 .env
-*.backup
+__pycache__/
+.idea/
+.vscode/
+*.log
+build/
+*.iml
+.DS_Store
