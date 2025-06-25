@@ -1,35 +1,46 @@
-# Android specific
+# Android Studio
 *.iml
-.gradle/
-build/
-captures/
-.externalNativeBuild/
-.cxx/
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
 
-# Kotlin/Android Studio
-.idea/
-*.ipr
-*.iws
-
-# Kotlin compiled files
+# Kotlin and Java
 *.class
-*.kotlin_module
-
-# Logs
 *.log
-
-# Environment files
-.env
+*.tmp
+*.bak
+*.swp
 
 # Dependency directories
-node_modules/
-app/build/
+/node_modules/
+/android/app/build/
+/android/build/
 
-# Temp files
-*.swp
-*.swo
-*~
+# Gradle
+.gradle/
+build/
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Local configuration file
+local.properties
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test coverage
+/coverage
