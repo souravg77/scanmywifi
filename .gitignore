@@ -1,34 +1,50 @@
-# Android
+# Android Studio
+.idea/
 *.iml
 .gradle/
 build/
-local.properties
-.idea/
+captures/
+
+# Gradle
+/local.properties
+/.gradle
+/build
+/captures
+
+# OS
 .DS_Store
+Thumbs.db
 
-# Kotlin
+# Kotlin/Android specific
 *.class
-*.kotlin_module
-
-# Build
-bin/
-gen/
-out/
-app/build/
-
-# Logs
 *.log
+*.apk
+*.aar
+*.dex
+*.module
 
-# Dependencies
-node_modules/
+# Dependency directories
+/node_modules
+/android/app/build
+/android/build
 
-# Testing
-.coverage
-coverage/
-
-# Environment
-.env
-
-# Misc
+# Temporary files
 *.swp
 *.swo
+*~
+
+# Sensitive information
+*.env
+*.keystore
+
+# Logs
+logs/
+*.log
+
+# Testing
+/coverage
+.nyc_output/
+
+# Virtual environments
+venv/
+.env/
