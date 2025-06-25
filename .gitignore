@@ -1,36 +1,38 @@
 # Android Studio
-.idea/
 *.iml
-.gradle/
-build/
-captures/
-
-# macOS
+.gradle
+/local.properties
+/.idea/
 .DS_Store
-
-# Kotlin/Android specific
-*.class
-*.log
-local.properties
+/build
+/captures
+.externalNativeBuild
+.cxx
 
 # Gradle
+gradle/
+gradlew
+gradlew.bat
+
+# Kotlin/Android specific
 bin/
-gen/
 out/
-
-# Virtual Machine
-.kotlin-build/
-
-# Dependency directories
-/node_modules
-/app/build
-
-# Logging
+*.class
+*.apk
+*.dex
 *.log
 
-# Security
-.env
-*.keystore
+# Dependency directories
+node_modules/
+/app/build/
 
-# Test related
-/coverage
+# Sensitive or local configuration
+local.properties
+.env
+
+# Test reports and logs
+/reports/
+*.hprof
+
+# Virtual machine crash logs
+hs_err_pid*
