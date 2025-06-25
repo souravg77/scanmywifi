@@ -1,10 +1,28 @@
-node_modules/
-dist/
-.env
-__pycache__/
-.idea/
-.vscode/
-*.log
-build/
+# Android Studio
 *.iml
+.gradle
+/local.properties
+/.idea/
 .DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Kotlin/Java specific
+*.class
+*.jar
+*.aar
+*.dex
+
+# Dependency directories
+/node_modules
+/app/build/
+/app/src/test/
+/app/src/androidTest/
+
+# Logging and system files
+*.log
+.env
+__pycache__
+*.pyc
