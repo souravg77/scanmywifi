@@ -5,31 +5,24 @@ build/
 local.properties
 .idea/
 
-# Android build outputs
-bin/
-gen/
-out/
-app/build/
-
-# Dependency directories
-node_modules/
-
-# Logging files
-*.log
-
-# Virtual environment
-venv/
-.env
-
 # Kotlin/Java compiled files
 *.class
 *.dex
 
-# macOS system files
+# Logs
+*.log
+
+# System files
 .DS_Store
+Thumbs.db
 
-# Gradle cache
-.gradle
+# Dependency directories
+/node_modules
+/captures
 
-# Android SDK
-.settings/
+# Testing
+/reports
+/test-results
+
+# Secrets and environment files
+*.env
