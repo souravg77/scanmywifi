@@ -1,14 +1,26 @@
 # Android Studio
-.idea/
 *.iml
-.gradle/
-build/
-captures/
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
 
-# Kotlin/Java
+# Gradle files
+gradle/
+gradlew
+gradlew.bat
+
+# Compiled class files
 *.class
+
+# Log files
 *.log
-*.ctxt
+
+# Package Files
 *.jar
 *.war
 *.nar
@@ -20,18 +32,5 @@ captures/
 # Virtual machine crash logs
 hs_err_pid*
 
-# Android build output
-bin/
-gen/
-out/
-
 # Dependency directories
 node_modules/
-
-# Sensitive or local config files
-local.properties
-.env
-
-# OS generated files
-.DS_Store
-Thumbs.db
