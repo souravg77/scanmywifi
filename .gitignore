@@ -9,28 +9,27 @@
 .externalNativeBuild
 .cxx
 
-# Kotlin/Java compiled files
+# Gradle
+*.log
+.gradle/
+build/
+
+# Kotlin
 *.class
-*.jar
-*.dex
+*.kotlin_module
 
 # Dependency directories
 /node_modules/
-/app/build/
 
-# Logging files
-*.log
+# Testing
+/reports/
+/test-results/
 
-# Kotlin test coverage
-coverage/
+# Sensitive information
+*.env
+*.keystore
 
-# Secrets and environment files
-.env
-*.secrets
-
-# Virtual machine files
-.idea/
-.vscode/
-
-# System files
-Thumbs.db
+# Generated files
+/bin/
+/out/
+/target/
