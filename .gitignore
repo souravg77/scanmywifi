@@ -5,30 +5,28 @@ build/
 .idea/
 local.properties
 
-# macOS
-.DS_Store
-
-# Kotlin/Java
+# Kotlin and Java
 *.class
 *.log
-*.jar
-
-# Gradle
-captures/
-.externalNativeBuild/
-.cxx/
-
-# Logs
-logs/
-*.log
-
-# Virtual environment
-venv/
-.env
 
 # Dependency directories
 node_modules/
-jspm_packages/
+app/build/
 
-# Testing
-coverage/
+# Logging and crash files
+*.log
+.DS_Store
+
+# Kotlin build files
+bin/
+out/
+
+# Gradle files
+.gradle
+gradle/
+gradlew
+gradlew.bat
+
+# Environment and sensitive files
+.env
+*.jks
