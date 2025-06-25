@@ -1,31 +1,36 @@
 # Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.gradle/
+build/
+local.properties
+.idea/
 
 # Kotlin
 *.class
 *.kotlin_module
 
+# Compiled files
+bin/
+out/
+target/
+
 # Dependency directories
 node_modules/
-dist/
-.env
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # Testing
 coverage/
-.pytest_cache/
-__pycache__/
+.test-results/
 
-# Gradle
-.gradle/
-build/
+# Environment files
+.env
 
-# Misc
-*.log
+# Virtual environments
+venv/
+.venv/
