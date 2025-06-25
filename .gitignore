@@ -1,37 +1,31 @@
 # Android
-build/
 *.iml
 .gradle/
-.idea/
+build/
 local.properties
+.idea/
+captures/
+.externalNativeBuild/
 
 # Kotlin
 *.class
-*.kotlin_module
+*.log
+
+# Dependency directories
+/node_modules
+/android/app/build
+/android/build
+
+# Test files
+**/test-results/
+**/test-report/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
 
-# Testing
-reports/
-test-results/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Dependency directories
-node_modules/
-
-# Build output
-bin/
-out/
-dist/
-
-# Secrets and environment files
-.env
-*.keystore
-
 # Misc
-.vscode/
-*.swp
+.env
