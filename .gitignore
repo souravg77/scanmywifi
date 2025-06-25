@@ -5,30 +5,35 @@ build/
 local.properties
 .idea/
 
-# Gradle files
-*.gradle
-gradlew
-gradlew.bat
-
-# Java/Kotlin compiled files
+# Compiled class files
 *.class
-*.dex
 
-# Logs
+# Log files
 *.log
 
-# System files
-.DS_Store
-Thumbs.db
+# Android generated files
+bin/
+gen/
+out/
 
 # Dependency directories
-/node_modules
-/captures
+node_modules/
 
-# Testing
-/reports
-/test-results
-
-# Sensitive or local files
+# Virtual environment
+venv/
 .env
-*.keystore
+
+# macOS system files
+.DS_Store
+
+# Kotlin/Android specific
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin build files
+*.hprof
+
+# Kotlin test coverage
+coverage/
