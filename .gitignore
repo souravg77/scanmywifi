@@ -1,29 +1,37 @@
-# Android specific
+# Android
+build/
 *.iml
 .gradle/
-build/
-local.properties
 .idea/
-out/
+local.properties
 
-# Kotlin/Java specific
+# Kotlin
 *.class
-*.log
-
-# Dependency directories
-node_modules/
-app/build/
-
-# Sensitive or local files
-.env
-.DS_Store
+*.kotlin_module
 
 # Logs
 *.log
 
 # Testing
-/test-results/
-/test-report/
+reports/
+test-results/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+
+# Build output
+bin/
+out/
+dist/
+
+# Secrets and environment files
+.env
+*.keystore
 
 # Misc
-*.hprof
+.vscode/
+*.swp
