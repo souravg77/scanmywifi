@@ -1,60 +1,39 @@
 # Android Studio
-.idea/
 *.iml
-*.iws
-*.ipr
-
-# Gradle
-.gradle/
-build/
-captures/
-
-# OS generated files
+.gradle
+/local.properties
+/.idea/
 .DS_Store
-Thumbs.db
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Kotlin/Java
+*.class
+*.log
+*.tmp
+*.bak
+*.swp
+*.kt.orig
+
+# Dependency directories
+/node_modules/
+/app/build/
+/app/src/main/assets/
 
 # Local configuration file
 local.properties
 
-# Kotlin build files
-*.class
+# Logging
 *.log
 
-# Mobile Tools for Java
-.mtj.tmp/
-
-# Package Files
-*.jar
-*.war
-*.ear
-*.aar
-*.apk
+# Gradle
+.gradle/
+build/
 
 # Virtual machine crash logs
 hs_err_pid*
 
-# Android specific
-bin/
-gen/
-out/
-
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Test coverage
-coverage/
+# Sensitive information
+*.env
