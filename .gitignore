@@ -1,44 +1,37 @@
 # Android Studio
 .idea/
 *.iml
-*.iws
-*.ipr
-
-# Gradle
 .gradle/
 build/
+captures/
 local.properties
 
-# Compiled class files
+# Kotlin
 *.class
-
-# Log files
 *.log
 
-# Android generated files
-bin/
-gen/
-out/
+# Gradle
+gradlew
+gradlew.bat
 
-# External native libraries
-*.so
+# Dependency directories
+app/build/
+android/build/
 
-# Keystore files
+# Compiled class files
+*.dex
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Security files
 *.jks
 *.keystore
 
-# Virtual machine crash logs
-hs_err_pid*
-
-# macOS
-.DS_Store
-
-# VS Code
-.vscode/
-
-# Dependency directories
-node_modules/
-
-# Build output
-/app/build
-/build
+# Temporary files
+*.tmp
+*.bak
