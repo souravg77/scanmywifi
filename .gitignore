@@ -1,30 +1,27 @@
 # Android Studio
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.iws
+*.ipr
 
-# Gradle files
-gradle/
-gradlew
-gradlew.bat
+# Gradle
+.gradle/
+build/
+local.properties
 
-# Compiled class files
-*.class
+# Android build output
+bin/
+gen/
+out/
 
-# Log files
+# Logs
 *.log
 
-# Built application files
-*.apk
-*.aar
-*.ap_
-*.aab
+# macOS
+.DS_Store
+
+# Kotlin
+*.class
 
 # Virtual machine crash logs
 hs_err_pid*
@@ -32,9 +29,5 @@ hs_err_pid*
 # Dependency directories
 node_modules/
 
-# Local configuration file
-local.properties
-
-# Kotlin build outputs
-build/
-out/
+# Testing
+coverage/
