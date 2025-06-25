@@ -5,31 +5,43 @@ build/
 .idea/
 local.properties
 
-# Built application files
-*.apk
-*.aar
-*.ap_
-*.aab
-
-# Kotlin/Java compiled files
+# Kotlin/Java
 *.class
-*.dex
-
-# Dependency directories
-/node_modules
-/captures
-
-# Logs
 *.log
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Virtual environment
-.env
-__pycache__/
+# Dependency directories
+/node_modules
+/app/build
 
-# Test reports and coverage
-/test-results
-/coverage
+# Gradle
+.gradle
+/build
+/captures
+
+# Log files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+/captures
+
+# IntelliJ
+*.ipr
+*.iws
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# NDK
+obj/
+
+# Misc
+.classpath
+.project
+.settings/
