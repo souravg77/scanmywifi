@@ -13,36 +13,35 @@ gradlew.bat
 # Local configuration file
 local.properties
 
-# Log Files
+# Log files
 *.log
 
-# macOS
-.DS_Store
-
-# Android
+# Android generated files
 bin/
 gen/
 out/
 
-# Virtual Machine
-.vm/
-
 # Dependency directories
 node_modules/
 
+# Virtual machine crash logs
+hs_err_pid*
+
+# macOS
+.DS_Store
+
 # Kotlin/Android specific
-*.hprof
-.externalNativeBuild/
-.cxx/
+*.class
+.kotlin/
 
-# Sensitive information
-*.key
-*.jks
+# Build output directories
+/app/build/
+/build/
 
-# Test reports
-test-results/
-reports/
+# Secrets and environment files
+.env
+*.keystore
 
-# Misc
-*.bak
+# Temporary files
 *.swp
+*~
