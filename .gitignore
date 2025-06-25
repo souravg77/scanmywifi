@@ -1,38 +1,24 @@
 # Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.gradle/
+build/
+local.properties
+.idea/
 
-# Gradle
-gradle/
-gradlew
-gradlew.bat
-
-# Kotlin/Android specific
-bin/
-out/
+# Kotlin/Java
 *.class
-*.apk
-*.dex
 *.log
 
 # Dependency directories
 node_modules/
-/app/build/
+app/build/
 
-# Sensitive or local configuration
-local.properties
+# Logging
+log/
+
+# Environment files
 .env
 
-# Test reports and logs
-/reports/
-*.hprof
-
-# Virtual machine crash logs
-hs_err_pid*
+# OS generated files
+.DS_Store
+Thumbs.db
