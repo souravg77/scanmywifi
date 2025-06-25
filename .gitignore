@@ -1,29 +1,24 @@
 # Android Studio
+.idea/
 *.iml
 .gradle/
 build/
-local.properties
-.idea/
+captures/
 
 # Kotlin/Java
 *.class
 *.log
-*.ktm
 
-# Android build
-bin/
-gen/
-out/
-release/
+# Gradle
+*.apk
+*.aar
+*.dex
+
+# Sensitive information
+*.env
 
 # Dependency directories
 node_modules/
 
-# Logs
-logs/
-*.log
-
-# Miscellaneous
+# Misc
 .DS_Store
-.env
-*.swp
