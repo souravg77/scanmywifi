@@ -1,33 +1,35 @@
 # Android Studio
-.idea/
 *.iml
-*.iws
-*.ipr
-
-# Gradle
 .gradle/
 build/
 local.properties
+.idea/
 
-# Android build output
+# Android build outputs
 bin/
 gen/
 out/
-
-# Logs
-*.log
-
-# macOS
-.DS_Store
-
-# Kotlin
-*.class
-
-# Virtual machine crash logs
-hs_err_pid*
+app/build/
 
 # Dependency directories
 node_modules/
 
-# Testing
-coverage/
+# Logging files
+*.log
+
+# Virtual environment
+venv/
+.env
+
+# Kotlin/Java compiled files
+*.class
+*.dex
+
+# macOS system files
+.DS_Store
+
+# Gradle cache
+.gradle
+
+# Android SDK
+.settings/
