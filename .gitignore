@@ -4,64 +4,37 @@
 *.iws
 *.ipr
 
-# Build files
-build/
-app/build/
-bin/
-gen/
-
 # Gradle
 .gradle/
-gradle/
-gradlew
-gradlew.bat
+build/
+local.properties
+
+# Android build
+/app/build/
+/captures/
+
+# Kotlin
+*.class
+*.log
+
+# Sensitive information
+.env
 
 # OS generated files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Logs
+# Dependency directories
+/node_modules/
+/app/libs/
+
+# Virtual environments
+venv/
+.venv/
+
+# Logging
 *.log
 
-# Local configuration file
-local.properties
-
-# Kotlin/Android specific
-*.class
-*.apk
-*.aar
-*.dex
-*.module
-*.hprof
-
-# Dependency directories
-/node_modules
-/jspm_packages
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# dotenv environment variables file
-.env
-.env.test
-
 # Temporary files
-*~
-.tmp
+*.tmp
+*.bak
