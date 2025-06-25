@@ -5,20 +5,36 @@ build/
 local.properties
 .idea/
 
-# Kotlin/Java
+# Kotlin/Java compiled files
 *.class
-*.log
-
-# Build output
-/app/build/
-/app/release/
+*.dex
+*.apk
 
 # Dependency directories
-/node_modules/
-/vendor/
+/node_modules
+/app/build
+/captures
 
-# Misc
+# Logging
+*.log
+
+# System files
 .DS_Store
+Thumbs.db
+
+# Gradle
+.gradle
+gradle/
+gradlew
+gradlew.bat
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Test results
+/test-results/
+/test-reports/
+
+# Sensitive information
 .env
-__pycache__
-*.swp
+*.keystore
