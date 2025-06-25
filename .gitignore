@@ -1,0 +1,41 @@
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Kotlin build files
+out/
+
+# Android specific
+bin/
+gen/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Dependency directories
+node_modules/
+
+# Virtual environment
+venv/
+.env
+
+# Misc
+*.swp
+*.swo
