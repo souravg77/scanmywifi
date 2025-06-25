@@ -1,40 +1,57 @@
 # Android Studio
+.idea/
 *.iml
 .gradle/
 build/
 captures/
-.idea/
-local.properties
-
-# Kotlin
-*.class
-*.jar
-*.war
-*.ear
-
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# Kotlin/Android build output
-bin/
-out/
-gen/
-app/build/
 
 # Gradle files
-.gradle
 gradle/
 gradlew
 gradlew.bat
 
-# Misc
-.env
-*.hprof
+# Local configuration file
+local.properties
+
+# Log files
+*.log
+
+# Android generated files
+bin/
+gen/
+out/
+
+# Dependency directories
+/node_modules
+/app/build
+
+# macOS
+.DS_Store
+
+# Kotlin/Java compiled files
+*.class
+*.dex
+
+# External native build folder
+.externalNativeBuild
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Proguard folder
+/proguard
+
+# Intellij
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+.idea/libraries
+
+# Keystore files
+*.jks
+*.keystore
+
+# Backup files
+*.bak
