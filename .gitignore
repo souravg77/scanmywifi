@@ -1,0 +1,33 @@
+# Android Studio
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+
+# Kotlin
+*.class
+*.kotlin_module
+
+# Gradle
+gradlew
+gradlew.bat
+gradle/
+
+# Build directories
+bin/
+out/
+target/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Sensitive information
+.env
