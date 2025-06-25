@@ -1,53 +1,39 @@
-# Android Studio
-.idea/
-*.iml
-*.iws
-*.ipr
-
-# Gradle
-.gradle/
-build/
-captures/
-
 # Android
-bin/
-gen/
-out/
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
 
-# Local configuration file
+# Kotlin
+*.class
+*.log
+
+# Dependency directories
+/node_modules/
+/app/build/
+/app/src/main/gen/
+
+# Testing
+/test-results/
+/test-report/
+
+# Sensitive or local files
+.env
+*.keystore
 local.properties
 
 # Logs
 *.log
 
-# Virtual machine crash logs
-hs_err_pid*
-
-# macOS
-.DS_Store
-
-# Kotlin/Android specific
-*.apk
-*.aar
-*.dex
-*.class
-
-# Dependency directories
-/node_modules
-/jspm_packages
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Environments
-.env
-.venv
-env/
+# Virtual environment
 venv/
+.venv/
 
-# Testing
-/test-results/
-/coverage/
+# Build output
+dist/
+out/
