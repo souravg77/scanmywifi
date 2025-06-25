@@ -5,42 +5,30 @@
 build/
 captures/
 
-# Gradle files
-gradle/
-gradlew
-gradlew.bat
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Local configuration file
-local.properties
+# Kotlin/Java compiled files
+*.class
+*.dex
 
-# Log files
+# Logging
 *.log
-
-# Android generated files
-bin/
-gen/
-out/
 
 # Dependency directories
 /node_modules
 /app/build
 
-# Sensitive or local files
+# Sensitive or local configuration
+local.properties
 .env
-*.keystore
 
-# Virtual machine crash logs
-hs_err_pid*
+# Test reports and coverage
+/reports
+/coverage
 
-# macOS system files
-.DS_Store
-
-# Kotlin/Android specific
-*.apk
-*.aar
-*.dex
-*.class
-
-# Temporary files
+# Miscellaneous
 *.swp
+*.swo
 *~
