@@ -1,0 +1,48 @@
+# Android Studio
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+/captures/
+
+# IntelliJ
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+
+# Kotlin
+*.kotlin_module
+
+# Dependency directories
+/app/build/
+/node_modules/
+/dist/
+
+# Environment files
+.env
+
+# Temp files
+*.tmp
+*.bak
+*.swp
