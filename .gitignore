@@ -9,18 +9,24 @@
 .externalNativeBuild
 .cxx
 
-# Kotlin
-*.class
-*.log
+# Gradle files
+*.gradle
+/buildScan/
+
+# Android specifics
+bin/
+gen/
+out/
 
 # Dependency directories
-/node_modules/
-/app/build/
-/app/src/main/gen/
+node_modules/
 
-# Sensitive files
-*.env
-*.keystore
+# Logs
+*.log
 
-# Misc
-*.hprof
+# Environment files
+.env
+
+# Test reports
+test-results/
+coverage/
