@@ -2,27 +2,35 @@
 *.iml
 .gradle/
 build/
-local.properties
 .idea/
+local.properties
 
-# Kotlin/Java compiled files
+# Kotlin/Java
 *.class
-*.dex
-
-# Logs
 *.log
+*.jar
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
 # Dependency directories
-/node_modules
-/captures
+node_modules/
+app/build/
 
-# Testing
-/reports
-/test-results
+# Logging
+*.log
 
-# Secrets and environment files
-*.env
+# Environment files
+.env
+
+# Gradle
+.gradle
+gradle/
+gradlew
+gradlew.bat
+
+# Build output
+bin/
+out/
+target/
