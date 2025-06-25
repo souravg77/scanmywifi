@@ -1,27 +1,37 @@
-# Android Studio
+# Android specific
+/build
+/captures
 *.iml
-.gradle/
-build/
-local.properties
-.idea/
+.gradle
+/local.properties
+/.idea
 .DS_Store
 
-# Kotlin/Android specific
-bin/
-gen/
-out/
-app/build/
-captures/
+# Kotlin and Android Studio
+*.class
+*.log
+*.ktm
+*.kotlin_module
 
 # Dependency directories
-node_modules/
+/node_modules
+/app/build
+/app/src/main/res/drawable
 
-# Logs
-*.log
-
-# Kotlin build artifacts
-*.class
-*.dex
+# Logging and crash reports
+*.hprof
+/captures
 
 # Testing
-.coverage
+/app/src/test/resources
+/app/src/androidTest/resources
+
+# Environment and sensitive files
+.env
+*.jks
+signing.properties
+
+# Miscellaneous
+.externalNativeBuild
+.cxx
+local.properties
