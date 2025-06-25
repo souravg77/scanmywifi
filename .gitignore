@@ -1,42 +1,40 @@
 # Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
 
-# Kotlin and Android specific
+# Kotlin and Java
 *.class
+*.jar
 *.log
-*.apk
-*.aab
-bin/
-gen/
-out/
+
+# Intellij
+.idea/
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # Dependency directories
 node_modules/
-jspm_packages/
 
-# Sensitive files
+# Build output
+bin/
+out/
+target/
+
+# Gradle
+.gradle
+local.properties
+
+# Logs
+*.log
+
+# Misc
 .env
-*.jks
-*.keystore
-
-# Gradle files
-.gradle/
-build/
-
-# Logging
-log/
-logs/
-
-# Virtual machine crash logs
-hs_err_pid*
-
-# Performance logs
-*.hprof
+__pycache__/
