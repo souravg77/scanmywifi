@@ -1,4 +1,4 @@
-# Android Studio
+# Android Studio files
 *.iml
 .gradle/
 build/
@@ -7,20 +7,26 @@ local.properties
 
 # Kotlin/Java compiled files
 *.class
-*.dex
-*.apk
+bin/
+out/
 
 # Dependency directories
 node_modules/
-vendor/
 
-# Log files
+# Logs
 *.log
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Test and coverage
+# Testing
 coverage/
-.coverage
+test-results/
+
+# Secrets and environment files
+.env
+*.keystore
+
+# Virtual machine files
+.kotlin/
