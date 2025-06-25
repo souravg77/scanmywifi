@@ -1,37 +1,39 @@
 # Android Studio
 .idea/
 *.iml
-*.iws
-*.ipr
-
-# Gradle
 .gradle/
 build/
-local.properties
+captures/
 
-# Build variants
-/app/build/
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Logs
+# Gradle files
+*.gradle
+gradlew
+gradlew.bat
+
+# Compiled class files
+*.class
+
+# Log files
 *.log
 
-# macOS
-.DS_Store
-
-# Kotlin/Android specific
-*.class
-*.apk
-*.aar
-*.dex
+# Android specific
+app/build/
+app/release/
+local.properties
 
 # Virtual machine crash logs
 hs_err_pid*
 
-# Android testing
-/captures
+# Kotlin specific
+*.kotlin_module
 
-# External libraries
-/app/libs/
+# Dependency directories
+node_modules/
+jspm_packages/
 
-# Sensitive information
-*.env
+# Test reports
+test-results/
