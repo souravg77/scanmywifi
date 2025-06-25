@@ -1,33 +1,28 @@
-# Android Studio
+# Android specific
 *.iml
 .gradle/
 build/
-.idea/
+captures/
 local.properties
+.idea/
+bin/
+gen/
 
-# Kotlin/Java compiled files
+# Kotlin/Android specific
 *.class
-*.dex
-
-# Logs
 *.log
-
-# System files
-.DS_Store
-Thumbs.db
 
 # Dependency directories
 node_modules/
+jspm_packages/
 
 # Testing
-.test-results/
-coverage/
+.pytest_cache/
 
-# Build output
-bin/
-out/
-target/
-
-# Secrets and environment files
+# Environment and sensitive files
 .env
 *.keystore
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
