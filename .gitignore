@@ -1,0 +1,36 @@
+# Android Studio
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin/Java
+*.class
+*.log
+
+# Dependency directories
+node_modules/
+.idea/
+out/
+
+# Gradle files
+gradle/
+gradlew
+gradlew.bat
+
+# Build output
+bin/
+target/
+dist/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
